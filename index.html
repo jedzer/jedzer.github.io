@@ -4,6 +4,7 @@
 <head>
   <title>Portfolio Page</title>
   <meta property="og:title" content="Portfolio Page" />
+  <link rel="icon" href="public/favicon.png" type="image/x-icon" />
 
   <style data-tag="reset-style-sheet">
     html {
@@ -104,6 +105,11 @@
       font-size: 16px;
     }
 
+    @font-face {
+      font-family: "BatikWorldwide";
+      src: url("fonts/BatikWorldwide.otf") format("opentype");
+    }
+
     body {
       font-weight: 400;
       font-style: normal;
@@ -118,13 +124,13 @@
 
   </style>
   <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
     data-tag="font" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
-    data-tag="font" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
     data-tag="font" />
   <link rel="stylesheet" href="./style.css" />
 </head>
@@ -135,10 +141,10 @@
 
     <div class="home-container">
       <header data-role="Header" class="home-header">
-        <img alt="logo" src="public/playground_assets/text-1667837834796-1500h.png" class="home-image" />
+        <span class="home-text title">JEDZER</span>
       </header>
       <div class="home-hero">
-        <h1 class="home-text">Helping you build exiting products</h1>
+        <h1 class="home-text01">Helping you build exiting products</h1>
         <a href="#hi" class="home-link">
           <svg viewBox="0 0 658.2857142857142 1024" class="home-icon">
             <path
@@ -148,14 +154,14 @@
         </a>
       </div>
       <div id="hi" class="home-hero1">
-        <img src="public/playground_assets/img_7548-800w.jpg" alt="image" class="home-image1" />
+        <img alt="image" src="public/playground_assets/img_7548-800w.jpg" class="home-image" />
         <div class="home-container1">
-          <h1 class="home-text01">
+          <h1 class="home-text02">
             <span>HI!</span>
-            <span class="home-text03"></span>
-            <span class="home-text04">I'm Eugene.</span>
+            <span class="home-text04"></span>
+            <span class="home-text05">I'm Eugene.</span>
           </h1>
-          <span class="home-text05">
+          <span class="home-text06">
             <span>
               I am a software developer 👨‍💻 with almost 5 years of experience.
               I've helped building cool and exciting products using latest and
@@ -174,7 +180,7 @@
           <div class="home-btn-group">
             <a href="https://drive.google.com/file/d/1oBRRXnQFAeuBYfX6tsMn2wvAIQMRU979/view?usp=share_link"
               target="_blank" rel="noreferrer noopener" class="home-link1 button">
-              <span class="home-text13">
+              <span class="home-text14">
                 <span>Download CV</span>
                 <br />
               </span>
@@ -183,8 +189,8 @@
         </div>
       </div>
       <footer class="home-footer">
-        <img alt="logo" src="public/playground_assets/text-1667837834796-1500h.png" class="home-image2" />
-        <span class="home-text16">© 2022 JEDZER, All Rights Reserved.</span>
+        <span class="home-text17 title">JEDZER</span>
+        <span class="home-text18">© 2022 JEDZER, All Rights Reserved.</span>
         <div class="home-icon-group">
           <a href="https://github.com/jedzer" target="_blank" rel="noreferrer noopener" class="home-link2">
             <svg viewBox="0 0 877.7142857142857 1024" class="home-icon2">

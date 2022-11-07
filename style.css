@@ -28,10 +28,12 @@
   --dl-space-space-doubleunit: 16px;
   --dl-space-space-tripleunit: 24px;
 }
+
 .teleport-show {
   display: flex !important;
   transform: none !important;
 }
+
 .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
@@ -40,6 +42,7 @@
   list-style-type: none;
   list-style-position: outside;
 }
+
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
@@ -50,9 +53,11 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
 .list-item {
   display: list-item;
 }
+
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -63,6 +68,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
 .input {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -73,6 +79,11 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
+.title {
+  font-family: BatikWorldwide;
+}
+
 .section-Text {
   font-size: 18px;
   font-family: Playfair Display;
@@ -82,6 +93,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .card-Text {
   font-size: 16px;
   font-style: normal;
@@ -92,6 +104,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .content {
   font-size: 16px;
   font-family: Arial;
@@ -100,6 +113,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .card-Heading {
   font-size: 24px;
   font-style: normal;
@@ -109,6 +123,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .anchor {
   font-size: 16px;
   font-family: Overpass;
@@ -117,6 +132,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
+
 .navbar-Link {
   font-size: 24px;
   font-family: Overpass;
@@ -125,6 +141,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .section-Heading {
   font-size: 48px;
   font-family: Overpass;
