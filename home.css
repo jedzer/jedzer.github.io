@@ -13,15 +13,8 @@
   display: flex;
   max-width: 1400px;
   align-items: center;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 32px;
   justify-content: space-between;
-}
-
-.home-text {
-  font-size: 48px;
+  padding: 32px 48px;
 }
 
 .home-hero {
@@ -33,12 +26,12 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://images.unsplash.com/photo-1563293815-7d1c589bd909?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwNnx8d2hpdGV8ZW58MHx8fHwxNjY3ODU2NDYx&ixlib=rb-4.0.3&w=1500');
+  background-image: url(https://images.unsplash.com/photo-1563293815-7d1c589bd909?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwNnx8d2hpdGV8ZW58MHx8fHwxNjY3ODU2NDYx&ixlib=rb-4.0.3&w=1500);
   background-position: center;
 }
 
 .home-text01 {
-  color: 400 (Gray);
+  color: #400 (Gray);
   font-size: 4rem;
   max-width: 550px;
   font-style: normal;
@@ -47,16 +40,6 @@
   font-family: Lato;
   font-weight: 300;
   margin-bottom: 32px;
-}
-
-.home-link {
-  display: contents;
-}
-
-.home-icon {
-  width: 24px;
-  height: 24px;
-  text-decoration: none;
 }
 
 .home-hero1 {
@@ -86,23 +69,13 @@
 }
 
 .home-text02 {
-  color: 400 (Gray);
+  color: #400 (Gray);
   font-size: 3rem;
   font-family: Lato;
 }
 
-.home-text04 {
-  font-style: normal;
-  font-weight: 300;
-}
-
-.home-text05 {
-  font-style: normal;
-  font-weight: 300;
-}
-
 .home-text06 {
-  color: 400 (Gray);
+  color: #400 (Gray);
   font-size: 16px;
   margin-top: 32px;
   font-family: Lato;
@@ -119,25 +92,22 @@
 }
 
 .home-link1 {
-  color: 400 (Gray);
-  transition: 0.3s;
+  color: #400 (Gray);
   font-family: Lato;
   margin-left: var(--dl-space-space-unit);
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 32px;
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: 32px;
-  padding-bottom: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius1);
   text-decoration: none;
+  border-width: 2px;
+  padding: var(--dl-space-space-unit) 32px;
 }
 
-.home-link1:hover {
+.button:hover {
   cursor: pointer;
   transform: scale(1.02);
 }
 
 .home-text14 {
-  color: 400 (Gray);
+  color: #400 (Gray);
   font-style: normal;
   font-family: Lato;
   font-weight: 700;
@@ -149,19 +119,12 @@
   max-width: 1400px;
   align-self: center;
   align-items: center;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 32px;
   justify-content: space-between;
-}
-
-.home-text17 {
-  font-size: 48px;
+  padding: 32px 48px;
 }
 
 .home-text18 {
-  color: 400 (Gray);
+  color: #400 (Gray);
   font-family: Lato;
 }
 
@@ -172,115 +135,102 @@
   justify-content: space-between;
 }
 
-.home-link2 {
-  display: contents;
+.home-text,
+.home-text17 {
+  font-size: 48px;
 }
 
-.home-icon2 {
-  width: 24px;
-  height: 24px;
-  margin-right: 32px;
-  text-decoration: none;
-}
-
-.home-link3 {
-  display: contents;
-}
-
-.home-icon4 {
-  width: 24px;
-  height: 24px;
-  margin-right: 32px;
-  text-decoration: none;
-}
-
+.home-link,
+.home-link2,
+.home-link3,
 .home-link4 {
   display: contents;
 }
 
+.home-icon,
 .home-icon6 {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+}
+
+.home-text04,
+.home-text05 {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.home-icon2,
+.home-icon4 {
+  width: 32px;
+  height: 32px;
+  margin-right: 32px;
   text-decoration: none;
 }
 
 @media(max-width: 991px) {
+  .home-text01 {
+    font-size: 5rem
+  }
+
+  .home-text14 {
+    font-size: 3rem;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
   .home-hero1 {
     padding: 48px;
     flex-direction: column;
+    font-size: 5rem;
+    padding: var(--dl-space-space-unit-xl);
   }
 
   .home-container1 {
     align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 32px;
+    margin-bottom: var(--dl-space-space-unit)
   }
 
   .home-text02 {
+    margin-top: var(--dl-space-space-unit-xl);
     text-align: center;
+    font-size: 4rem
   }
 
   .home-text06 {
     text-align: center;
-    padding-left: var(--dl-space-space-fourunits);
-  }
-}
-
-@media(max-width: 767px) {
-  .home-header {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .home-hero {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .home-hero1 {
-    padding-left: 32px;
-    padding-right: 32px;
+    font-size: 3rem;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
   }
 
   .home-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column-reverse;
     padding-left: 32px;
     padding-right: 32px;
   }
 
   .home-text18 {
-    text-align: center;
-    margin-left: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-unit);
+    font-size: 2.5rem;
+    margin: var(--dl-space-space-unit-xl) 0 var(--dl-space-space-unit-xl) 0;
   }
-}
 
-@media(max-width: 479px) {
   .home-header {
     padding: var(--dl-space-space-unit);
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .home-hero {
-    padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 32px;
-  }
-
-  .home-hero1 {
-    padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: 32px;
-  }
-
-  .home-container1 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-
-  .home-text06 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding: 32px var(--dl-space-space-unit)
   }
 
   .home-btn-group {
@@ -289,17 +239,15 @@
 
   .home-link1 {
     margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
+    margin-left: 0;
+    border-width: 4px;
   }
 
-  .home-footer {
-    padding: var(--dl-space-space-unit);
-    flex-direction: column;
-  }
-
-  .home-text18 {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-unit);
+  .home-icon,
+  .home-icon2,
+  .home-icon4,
+  .home-icon6 {
+    width: 96px;
+    height: 96px;
   }
 }
